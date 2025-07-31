@@ -49,12 +49,13 @@ This application intelligently analyzes and categorizes deployment failure logs 
 ---
 
 ## 📂 Project Structure
-nlp_error_classifier/
-├── app.py # Flask main server
-├── nlp_logic.py # NLP logic using NLTK
-├── templates/
-│ └── index.html # HTML frontend
-├── static/
-│ └── style.css # CSS for frontend
-├── requirements.txt
-└── README.md
+
+nlp_error_classifier/<br>
+├── app.py # Flask main server<br>
+├── nlp_logic.py # NLP logic using NLTK<br>
+├── templates/<br>
+│ └── index.html # HTML frontend<br>
+├── static/<br>
+│ └── style.css # CSS for frontend<br>
+├── requirements.txt<br>
+└── README.md<br>
