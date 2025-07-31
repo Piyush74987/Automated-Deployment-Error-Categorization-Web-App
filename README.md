@@ -52,7 +52,7 @@ This application intelligently analyzes and categorizes deployment failure logs 
 
 nlp_error_classifier/<br>
 ├── app.py # Flask main server<br>
-├── nlp_logic.py # NLP logic using NLTK<br>
+├── error_anaylsis.py # NLP logic using NLTK<br>
 ├── templates/<br>
 │ └── index.html # HTML frontend<br>
 ├── static/<br>
