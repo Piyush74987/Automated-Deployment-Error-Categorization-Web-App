@@ -1,6 +1,6 @@
 # 🚀 Automated Deployment Error Categorization Web App
 
-> A Flask + NLP (NLTK) based web app to categorize failed deployment logs with detailed analysis and preventive measures.
+A Flask + NLP (NLTK) based web app to categorize failed deployment logs with detailed analysis and preventive measures.
 
 <img width="1920" height="1080" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/2667dec2-5e0e-4974-840a-6d3d0b1bcb63" />
 
