@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error Categorizer</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Automated Deployment Error Analyzer</h1>
+    <form method="POST">
+        <label for="error_text">Enter error message:</label>
+        <textarea name="error_text" placeholder="Paste error log..." rows="8"></textarea>
+        <input type="submit" value="Analyze">
+    </form>
+
+    {% if result %}
+    <div class="result">
+        <h3>Prediction Result</h3>
+        <p><strong>Failure Category:</strong> {{ result.category }}</p>
+        <p><strong>Reason:</strong> {{ result.reason }}</p>
+        <p><strong>Resolution:</strong> {{ result.resolution }}</p>
+        <p><strong>Prevention Plan:</strong> {{ result.prevention }}</p>
+    </div>
+    {% endif %}
+</body>
+</html>
