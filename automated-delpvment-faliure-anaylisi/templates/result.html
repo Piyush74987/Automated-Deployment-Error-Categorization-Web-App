@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Analysis Result</h1>
+        <p><strong>Input Error Message:</strong> {{ error_text }}</p>
+        <p><strong>Category:</strong> {{ category }}</p>
+        <p><strong>Reason:</strong> {{ reason }}</p>
+        <p><strong>Resolution:</strong> {{ resolution }}</p>
+        <p><strong>Prevention:</strong> {{ prevention }}</p>
+        <a href="/">Analyze Another Error</a>
+    </div>
+</body>
+</html>
