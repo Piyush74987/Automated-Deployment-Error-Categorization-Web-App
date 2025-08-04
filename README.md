@@ -13,10 +13,28 @@ This application intelligently analyzes and categorizes deployment failure logs 
 
 ## 📸 UI Preview
 
-| Input Form |
-|<img width="1920" height="1080" alt="Screenshot (41)" src="https://github.com/user-attachments/assets/26ea7c57-cc3f-4990-8b16-67e076cb297d" />
-|Prediction Result|
-<img width="1920" height="1080" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/2add93ac-7837-4562-bec7-9050c2534195" />
+<table border="1" width="500" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Input Form</th>
+    <th>Prediction Result</th>
+  </tr>
+  <tr>
+    <td>
+      <img 
+        alt="Screenshot (41)" src="https://github.com/user-attachments/assets/26ea7c57-cc3f-4990-8b16-67e076cb297d"
+        alt="Input Form"
+        width="240"
+      />
+    </td>
+    <td>
+      <img 
+        width="1920" height="1080" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/2add93ac-7837-4562-bec7-9050c2534195"
+        alt="Prediction Result"
+        width="240"
+      />
+    </td>
+  </tr>
+</table>
 
 
 
