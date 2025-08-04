@@ -2,9 +2,6 @@
 
 A Flask + NLP (NLTK) based web app to categorize failed deployment logs with detailed analysis and preventive measures.
 
-<img width="1920" height="1080" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/2667dec2-5e0e-4974-840a-6d3d0b1bcb63" />
-
-
 ## 🧠 Project Overview
 
 This application intelligently analyzes and categorizes deployment failure logs using Natural Language Processing (NLP). Built with **Flask** and **NLTK**, it automates the identification of error types and provides actionable insights—improving troubleshooting speed and reducing deployment failures.
@@ -21,7 +18,7 @@ This application intelligently analyzes and categorizes deployment failure logs 
   <tr>
     <td>
       <img 
-        alt="Screenshot (41)" src="https://github.com/user-attachments/assets/26ea7c57-cc3f-4990-8b16-67e076cb297d"
+         width="1920" height="1080" alt="Screenshot (41)" src="https://github.com/user-attachments/assets/26ea7c57-cc3f-4990-8b16-67e076cb297d"
         alt="Input Form"
         width="240"
       />
