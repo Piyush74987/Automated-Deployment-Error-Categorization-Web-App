@@ -74,3 +74,6 @@ nlp_error_classifier/<br>
 │ └── style.css # CSS for frontend<br>
 ├── requirements.txt<br>
 └── README.md<br>
+
+  <h2>📄 License</h2>
+    <p>This project is licensed under the MIT License.</p>
